@@ -1,0 +1,23 @@
+{
+  "name": "semantic-ui-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "Blackwine <daoquocvuong@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^2.0.0",
+    "particles.js": "^2.0.0",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "semantic-ui-react": "^0.67.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}
