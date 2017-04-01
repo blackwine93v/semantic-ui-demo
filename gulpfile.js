@@ -7,7 +7,7 @@ var less = require('gulp-less');
 gulp.task('css', function(){
   return gulp.src('less/**/*.less')
     .pipe(less())
-    .pipe(gulp.dest('static/'))
+    .pipe(gulp.dest('static/css/'))
 });
 
 gulp.task('default', ['css' ]);

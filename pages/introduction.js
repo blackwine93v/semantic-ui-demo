@@ -12,7 +12,7 @@ export default () => {
         <title>Semantic UI Demo</title>
       </Head>
       <MyHeader/>
-      <Home/>
+      Introduction
       <MyFooter/>
     </div>
   )

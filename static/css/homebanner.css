@@ -1,0 +1,13 @@
+#homebanner {
+  background-image: url(/static/images/banner.jpg);
+}
+#homebanner .segment-content {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 1.75em;
+}
+@media screen and (min-width: 768px) {
+  #homebanner .segment-content {
+    font-size: 3em;
+  }
+}

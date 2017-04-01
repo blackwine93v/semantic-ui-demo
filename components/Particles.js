@@ -5,7 +5,7 @@ export default () => (
     <Head>
       <script src="static/particles.js"></script>
       <script src="static/load_particles.js"></script>
-      <link rel="stylesheet" href="static/particles.css"></link>
+      <link rel="stylesheet" href="static/css/particles.css"></link>
     </Head>
   </div>
 )
