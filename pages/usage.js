@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import MyHeader from '../components/Header.js';
 import MyFooter from '../components/Footer.js';
-import Comparing from '../containers/Comparing.js';
+import Usage from '../containers/Usage.js';
 
 // TODO: Update <Search> usage after its will be implemented
 
@@ -9,10 +9,10 @@ export default () => {
   return (
     <div id="main">
       <Head>
-        <title>Semantic UI & Bootstrap</title>
+        <title>Usage</title>
       </Head>
       <MyHeader/>
-      <Comparing/>
+      <Usage/>
       <MyFooter/>
     </div>
   )

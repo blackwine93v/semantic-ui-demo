@@ -1,0 +1,37 @@
+[
+  {
+    "name":"Confirm",
+    "description":"A Confirm modal gives the user a choice to confirm or cancel an action/",
+    "props":[
+    ],
+    "link":"http://react.semantic-ui.com/addons/confirm"
+  },
+  {
+    "name":"Portal",
+    "description":"A component that allows you to render children outside their parent.",
+    "props":[
+    ],
+    "link":"http://react.semantic-ui.com/addons/portal"
+  },
+  {
+    "name":"Radio",
+    "description":"A Radio is sugar for <Checkbox radio />. Useful for exclusive groups of sliders or toggles.",
+    "props":[
+    ],
+    "link":"http://react.semantic-ui.com/addons/radio"
+  },
+  {
+    "name":"Select",
+    "description":"A Select is sugar for <Dropdown selection />.",
+    "props":[
+    ],
+    "link":"http://react.semantic-ui.com/addons/select"
+  },
+  {
+    "name":"TextArea",
+    "description":"A TextArea can be used to allow for extended user input.",
+    "props":[
+    ],
+    "link":"http://react.semantic-ui.com/addons/text-area"
+  }
+]

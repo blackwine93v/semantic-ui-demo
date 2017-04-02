@@ -14,6 +14,7 @@
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-raw-html": "^0.4.0",
     "semantic-ui-react": "^0.67.2"
   },
   "devDependencies": {

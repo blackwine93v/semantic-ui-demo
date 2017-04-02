@@ -1,9 +1,9 @@
-import {Divider, Segment, Grid, List} from 'semantic-ui-react';
+import {Divider, Segment, Grid, List, Container} from 'semantic-ui-react';
 export default ()=>(
-  <Grid>
+  <Divider id="footer" as={Grid} clearing hidden>
     <Grid.Row><Divider hidden/></Grid.Row>
-    <Grid.Row stretched color="black">
-      <Segment padded inverted>
+    <Grid.Row  stretched color="black">
+      <Segment  as={Container}  padded inverted>
         <List inverted items={
           [
             {content:"About", href:"#"},
@@ -15,5 +15,5 @@ export default ()=>(
         } />
       </Segment>
     </Grid.Row>
-  </Grid>
+  </Divider>
 );

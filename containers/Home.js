@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react'
 import Link from 'next/link';
 import Router from 'next/router'
-import {Container, Grid, Header, List, Icon, Image, Divider} from 'semantic-ui-react'
+import {Container, Grid, Header, List, Icon, Image, Divider, Button} from 'semantic-ui-react'
 import HomeBanner from '../components/HomeBanner.js';
 
 // TODO: Update <Search> usage after its will be implemented
@@ -34,14 +34,21 @@ const Home = () => {
                   <List.Item>
                     <Icon size="huge" name="wpforms" />
                     <List.Content>
-                      <List.Header data-tooltip="Intergrations, build tools, recipes,.."><Link href="/introduction"><a>Introduction</a></Link></List.Header>
+                      <List.Header data-tooltip="HTML, JavaScript, Intergrations, themes,.."><Link href="/introduction"><a>Introduction</a></Link></List.Header>
                     </List.Content>
                   </List.Item>
                   <Divider/>
                   <List.Item>
                     <Icon  size="huge" name="setting" />
                     <List.Content>
-                      <List.Header data-tooltip="How to install and use Semantic UI?"><Link href="/install"><a>Install & Usage</a></Link></List.Header>
+                      <List.Header data-tooltip="How to Intergrate with React?"><Link href="/install"><a>Install</a></Link></List.Header>
+                    </List.Content>
+                  </List.Item>
+                  <Divider/>
+                  <List.Item>
+                    <Icon  size="huge" name="book" />
+                    <List.Content>
+                      <List.Header data-tooltip="How to use Semantic UI?"><Link href="/usage"><a>Usage</a></Link></List.Header>
                     </List.Content>
                   </List.Item>
                   <Divider/>

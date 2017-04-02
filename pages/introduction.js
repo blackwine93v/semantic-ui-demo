@@ -1,18 +1,17 @@
 import Head from 'next/head';
 import MyHeader from '../components/Header.js';
 import MyFooter from '../components/Footer.js';
-import Home from '../containers/Home.js';
+import Introduction from '../containers/Introduction.js';
 
-// TODO: Update <Search> usage after its will be implemented
 
 export default () => {
   return (
     <div id="main">
       <Head>
-        <title>Semantic UI Demo</title>
+        <title>Introduction</title>
       </Head>
       <MyHeader/>
-      Introduction
+      <Introduction/>
       <MyFooter/>
     </div>
   )
